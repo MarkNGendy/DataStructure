@@ -5,6 +5,10 @@ import org.junit.Test;
 import java.io.FileNotFoundException;
 import static org.junit.Assert.*;
 
+/**
+ * @author Mark Nader Fathy
+ */
+
 public class HangmanTest {
 
     @Test

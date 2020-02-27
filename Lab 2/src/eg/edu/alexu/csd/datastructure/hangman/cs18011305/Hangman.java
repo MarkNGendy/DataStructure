@@ -2,6 +2,9 @@ package eg.edu.alexu.csd.datastructure.hangman.cs18011305;
 import java.util.*;
 import java.io.*;
 
+/**
+ * @author Mark Nader Fathy
+ */
 public class Hangman implements IHangman {
 
     private String[] words;
@@ -131,17 +134,17 @@ public class Hangman implements IHangman {
         return false;
     }
 
-    public static void main(String[] args) {
-        Hangman hangman = new Hangman();
-        System.out.println(System.getProperty("user.dir"));
-        hangman.readFile("Dictionary.txt");
-        hangman.selectRandomSecretWord();
-        hangman.setMaxWrongGuesses(5);
-        try {
-            System.out.println(hangman.guess('a'));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+//    public static void main(String[] args) {
+//        Hangman hangman = new Hangman();
+//        System.out.println(System.getProperty("user.dir"));
+//        hangman.readFile("Dictionary.txt");
+//        hangman.selectRandomSecretWord();
+//        hangman.setMaxWrongGuesses(5);
+//        try {
+//            System.out.println(hangman.guess('a'));
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
 }
 
