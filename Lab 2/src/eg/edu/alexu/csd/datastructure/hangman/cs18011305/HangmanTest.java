@@ -73,13 +73,6 @@ public class HangmanTest {
     }
 
     @Test
-    public void testWinning() throws Exception {
-        Hangman hangman = new Hangman();
-        String guessed = hangman.guess('o');
-        assertNull(guessed);
-    }
-
-    @Test
     public void testLosing() throws Exception {
         Hangman hangman = new Hangman();
         String[] testing = {"Orange"};

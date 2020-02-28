@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25eef7f3-cae1-4c2e-99d3-031389b8d53d" name="Default Changelist" comment="" />
+    <list default="true" id="25eef7f3-cae1-4c2e-99d3-031389b8d53d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/HangmanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/HangmanTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/Hangman.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="401">
-              <caret line="134" column="5" lean-forward="true" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+              <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/HangmanTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="1725">
+              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,6 +65,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -70,8 +76,8 @@
         <option value="$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/Dictionary.txt" />
         <option value="$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/test.java" />
         <option value="$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/Test.java" />
-        <option value="$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/HangmanTest.java" />
         <option value="$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/Hangman.java" />
+        <option value="$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/HangmanTest.java" />
       </list>
     </option>
   </component>
@@ -81,13 +87,12 @@
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,6 +115,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -117,6 +124,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunDashboard">
@@ -232,9 +240,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HangmanTest_testOneWord - 2020.02.28 at 01h 07m 28s.xml">
-      <configuration name="HangmanTest.testOneWord" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HangmanTest_testOneWord - 2020.02.28 at 01h 08m 03s.xml">
       <configuration name="HangmanTest.testOneWord" configurationId="JUnit" />
     </history-entry>
@@ -262,11 +267,14 @@
     <history-entry file="HangmanTest - 2020.02.28 at 01h 26m 28s.xml">
       <configuration name="HangmanTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HangmanTest - 2020.02.28 at 12h 46m 53s.xml">
+      <configuration name="HangmanTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27837837" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28310812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -311,13 +319,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/HangmanTest.java</url>
-          <line>95</line>
+          <line>88</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/HangmanTest.java</url>
-          <line>94</line>
+          <line>87</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
@@ -384,26 +392,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/Hangman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="134" column="5" lean-forward="true" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/HangmanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/IHangman.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
@@ -413,6 +401,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/Dictionary.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/Hangman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/datastructure/hangman/cs18011305/HangmanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
