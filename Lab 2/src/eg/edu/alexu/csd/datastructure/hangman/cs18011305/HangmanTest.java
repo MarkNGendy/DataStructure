@@ -55,6 +55,7 @@ public class HangmanTest {
 
     @Test
     public void testOneWord() throws Exception {
+
         Hangman hangman = new Hangman();
         String[] testing = {"Orange"};
         hangman.setDictionary(testing);
