@@ -20,9 +20,15 @@ public class IceHockey implements IPlayersFinder {
     @Override
     public Point[] findPlayers(String[] photo, int team, int threshold) {
         retSize = 0;
-        if (photo == null || photo.length == 0 || photo[0].length() == 0) {
+        if (photo == null || photo.length == 0) {
             return new Point[0];
         }
+        for (String s : photo) {
+            if (s == null || s.length() == 0) {
+                return new Point[0];
+            }
+        }
+
         Point[] retArray = new Point[10000];
         picture = formingCharArray(photo);
         for (int i = 0; i < picture.length; i++) {

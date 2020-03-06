@@ -10,16 +10,26 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
  */
 
 public class Testing {
+    @Test
+    public void test0() {
+        IPlayersFinder playersFinder = new IceHockey();
+        String[] image = {null};
+        Point[] answer = new Point[]{};
+        int team = 1;
+        int threshold = 1;
+        Point[] result = playersFinder.findPlayers(image, team, threshold);
+        assertArrayEquals(answer, result);
+    }
 
     @Test
     public void test1() {
-    IPlayersFinder playersFinder = new IceHockey();
-    String[] image = {"", "", "", "", "", ""};
-    Point[] answer = new Point[] {};
-    Integer team = 1;
-    Integer threshold = 1;
-    Point[] result = playersFinder.findPlayers(image, team, threshold);
-    assertArrayEquals(answer, result);
+        IPlayersFinder playersFinder = new IceHockey();
+        String[] image = {"", "", "", "", "", ""};
+        Point[] answer = new Point[] {};
+        int team = 1;
+        int threshold = 1;
+        Point[] result = playersFinder.findPlayers(image, team, threshold);
+        assertArrayEquals(answer, result);
     }
 
     @Test
@@ -32,8 +42,8 @@ public class Testing {
                 "VNDSD333",
                 "OINFD33X"};
         Point[] answer = new Point[] {new Point(4,5), new Point(13,9), new Point(14,2)};
-        Integer team = 3;
-        Integer threshold = 16;
+        int team = 3;
+        int threshold = 16;
         Point[] result = playersFinder.findPlayers(image, team, threshold);
         assertArrayEquals(answer, result);
     }
@@ -52,8 +62,8 @@ public class Testing {
                 "4BR4Y4A444",
                 "4G4V4T4444"};
         Point[] answer = new Point[] {new Point(3,8), new Point(4,16), new Point(5,4), new Point(16,3), new Point(16,17), new Point(17,9)};
-        Integer team = 4;
-        Integer threshold = 16;
+        int team = 4;
+        int threshold = 16;
         Point[] result = playersFinder.findPlayers(image, team, threshold);
         assertArrayEquals(answer, result);
     }
@@ -83,8 +93,8 @@ public class Testing {
                 new Point(18,11), new Point(18,28), new Point(22,20),
                 new Point(23,26), new Point(24,15), new Point(27,2),
                 new Point(28,26), new Point(29,16)};
-        Integer team = 8;
-        Integer threshold = 9;
+        int team = 8;
+        int threshold = 9;
         Point[] result = playersFinder.findPlayers(image, team, threshold);
         assertArrayEquals(answer, result);
     }
@@ -98,8 +108,8 @@ public class Testing {
                 "1AAA1",
                 "11111"};
         Point[] answer = new Point[] {new Point(5,5), new Point(5,5)};
-        Integer team = 1;
-        Integer threshold = 3;
+        int team = 1;
+        int threshold = 3;
         Point[] result = playersFinder.findPlayers(image, team, threshold);
         assertArrayEquals(answer, result);
     }
