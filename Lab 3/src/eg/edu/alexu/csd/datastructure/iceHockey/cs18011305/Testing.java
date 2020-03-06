@@ -5,6 +5,9 @@ import java.awt.*;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
+/**
+ * @author Mark Nader Fathy
+ */
 
 public class Testing {
 

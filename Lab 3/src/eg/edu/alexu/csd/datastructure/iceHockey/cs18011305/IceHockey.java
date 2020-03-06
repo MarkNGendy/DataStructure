@@ -3,6 +3,10 @@ package eg.edu.alexu.csd.datastructure.iceHockey.cs18011305;
 import java.awt.*;
 import java.util.Arrays;
 
+/**
+ * @author Mark Nader Fathy
+ */
+
 public class IceHockey implements IPlayersFinder {
     private char [][] picture;
     private boolean [][] boolArray;
